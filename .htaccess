@@ -1,0 +1,4 @@
+# Allow image files only
+<Files ~ "\.(php|phtml|php3|php4|php5|pl|py|jsp|asp|htm|html|shtml|sh|cgi)$">
+  deny from all
+</Files>
